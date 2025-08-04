@@ -1,0 +1,56 @@
+GUID b3f369a867924422919baf7658f6f1c0
+Type Barricade
+Rarity Epic
+Useable Barricade
+Build Door
+ID 23682
+
+Size_X 2
+Size_Y 2
+Size_Z 0.5
+
+Health 1100
+Range 4
+Radius 1
+
+Locked
+
+Explosion 36
+
+Armor_Tier High
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Effect "27"
+        InputItems
+        [
+            "23085 x 30" // Палка
+            "23051 x 1" // Мешок с удобрениями
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Effect "27"
+        InputItems
+        [
+            "23682 x 1"
+
+        ]
+        OutputItems
+        [
+            "23085 x 10" // Палка
+            "23050 x 1" // Удобрение
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

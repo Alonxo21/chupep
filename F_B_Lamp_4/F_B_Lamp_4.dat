@@ -1,0 +1,22 @@
+GUID 03487437c9834ac3a1f426a3e62e08c1
+Type Barricade
+Rarity Rare
+Useable Barricade
+Build Cage
+ID 23687
+
+Size_X 2
+Size_Y 2
+Size_Z 0.6
+
+Health 300
+Range 4
+Radius 0.5
+Offset 0.50
+
+Explosion 36
+
+Armor_Tier High
+
+ 
+ 

@@ -1,0 +1,21 @@
+GUID a46b5ed2740e4e72b6310383f2a9a746
+Type Barricade
+Useable Barricade
+Build Barricade
+ID 23540
+
+Size_X 1
+Size_Y 2
+Size_Z 0.65
+
+Health 600
+Range 4
+Radius 0.5
+Offset 0.50
+
+Explosion 28
+
+Armor_Tier High
+
+
+PlacementAudioClip Sounds/FoliagePlacement.mp3

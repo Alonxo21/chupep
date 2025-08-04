@@ -1,0 +1,65 @@
+GUID c06ba756e586420f8b48edc0329fba9b
+Type Barricade
+Useable Barricade
+Build Cage
+ID 23547
+
+Size_X 1
+Size_Y 2
+Size_Z 0.65
+
+Health 600
+Range 4
+Radius 0.5
+Offset 0.50
+
+Explosion 28
+
+Armor_Tier High
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 2
+        Effect "27"
+        InputItems
+        [
+            "23056 x 15" // Стекло
+            "23069 x 5" // Пластик
+            {
+                ID 24602 // Горелка
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23547 x 1",
+            {
+                ID 24639 // Ножовка
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23056 x 5" // Стекло
+            "23069 x 1" // Пластик
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

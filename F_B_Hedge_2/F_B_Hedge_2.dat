@@ -1,0 +1,21 @@
+GUID 40205e38bb2041548868a3cb1efe7394
+Type Barricade
+Useable Barricade
+Build Freeform
+ID 23675
+
+Size_X 1
+Size_Y 2
+Size_Z 0.65
+
+Health 600
+Range 4
+Radius 0.1
+Offset 0.50
+
+Explosion 28
+
+Armor_Tier High
+
+
+PlacementAudioClip Sounds/FoliagePlacement.mp3

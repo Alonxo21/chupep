@@ -1,0 +1,73 @@
+GUID 9fd9cf6e1b614e9693a3794f1316e19a
+Type Storage
+Rarity Epic
+Useable Barricade
+Build Storage
+ID 23580
+
+Size_X 2
+Size_Y 2
+Size_Z 0.5
+
+Health 600
+Range 4
+Radius 0.5
+Offset 0.50
+
+Storage_X 6
+Storage_Y 6
+
+Locked
+
+Explosion 36
+
+Armor_Tier High
+Should_Close_When_Outside_Range true
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 3
+        Effect "27"
+        InputItems
+        [
+            "23073 x 55" // Металлолом
+            "23075 x 1" // Пружины
+            "23066 x 1" // Масло
+            "23026 x 1" // Болты
+            {
+                ID 24602 // Горелка
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23580 x 1",
+            {
+                ID 24639 // Ножовка
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23073 x 18" // Металлолом
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

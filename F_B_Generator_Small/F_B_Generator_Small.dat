@@ -1,0 +1,24 @@
+GUID 1deffce3c921406fa8424c7220c71b62
+Type Generator
+Rarity Rare
+Useable Barricade
+Build Generator
+ID 23641
+
+Size_X 2
+Size_Y 2
+Size_Z 0.5
+
+Health 450
+Range 4
+Radius 0.5
+Offset 0.50
+
+Capacity 50000
+Wirerange 32
+Burn 999999
+
+Explosion 36
+
+Armor_Tier High
+ 

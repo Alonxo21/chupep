@@ -1,0 +1,82 @@
+GUID 23ec0305b5f64f6cb64e8a6e82538239
+Type Storage
+Rarity Epic
+Useable Barricade
+Build Storage
+ID 23529
+
+Size_X 2
+Size_Y 2
+Size_Z 0.5
+
+Health 600
+Range 4
+Radius 0.5
+Offset 0.50
+
+Storage_X 6
+Storage_Y 6
+
+Locked
+
+Explosion 36
+
+Armor_Tier High
+Should_Close_When_Outside_Range true
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 3
+        Effect "27"
+        InputItems
+        [
+            "23073 x 15" // Металлолом
+            "23026 x 5" // Болты
+            "23032 x 3" // Бутылка хладагента
+            "23064 x 3" // Материал
+            "23055 x 3" // Шестерни
+            "23054 x 2" // Предохранитель
+            "23031 x 2" // Проводник
+            "23052 x 2" // Оптоволокно
+            "23079 x 1" // Вакуумная лампа
+            "23063 x 1" // Топливо Мистера помощника
+            {
+                ID 24602 // Горелка
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23529 x 1",
+            {
+                ID 24612 // Ломик
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23073 x 10" // Металлолом
+            "23026 x 1" // Болты
+            "23064 x 1" // Материал
+            "23055 x 1" // Шестерни
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

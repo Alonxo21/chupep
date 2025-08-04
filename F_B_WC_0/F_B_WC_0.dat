@@ -1,0 +1,72 @@
+GUID 227df49768ad4d94a5b1f74ab6d7683d
+Type Barricade
+Rarity Rare
+Useable Barricade
+Build Barrel_Rain
+ID 23598
+
+Size_X 2
+Size_Y 2
+Size_Z 0.4
+
+Health 600
+Range 4
+Radius 0.5
+Offset 0.50
+
+Explosion 36
+
+Armor_Tier High
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 3
+        Effect "27"
+        InputItems
+        [
+            "23027 x 50" // Керамика
+            "23069 x 50" // Пластик
+            "23073 x 25" // Металлолом
+            "23072 x 10" // Резина
+            "23026 x 5" // Болты
+            {
+                ID 23003 // Гаечный ключ
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23598 x 1",
+            {
+                ID 24615 // Молоток
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23027 x 16" // Керамика
+            "23069 x 16" // Пластик
+            "23073 x 8" // Металлолом
+            "23072 x 3" // Резина
+            "23026 x 1" // Болты
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

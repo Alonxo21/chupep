@@ -1,0 +1,66 @@
+GUID 562183fa3bb3462f90339cd1892b6d26
+Type Barricade
+Useable Barricade
+Build Barricade
+ID 23536
+
+Size_X 1
+Size_Y 2
+Size_Z 0.65
+
+Health 600
+Range 4
+Radius 0.5
+Offset 0.50
+
+
+Explosion 28
+
+Armor_Tier High
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 2
+        Effect "27"
+        InputItems
+        [
+            "23039 x 5" // Железный слиток
+            "23073 x 3" // Металлолом
+            {
+                ID 24602 // Горелка
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23536 x 1",
+            {
+                ID 24639 // Ножовка
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23039 x 1" // Железный слиток
+            "23073 x 1" // Металлолом
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

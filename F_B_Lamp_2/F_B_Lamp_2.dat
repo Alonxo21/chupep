@@ -1,0 +1,66 @@
+GUID 6227cdb006b64c22aa71aea0082e8c5f
+Type Barricade
+Rarity Rare
+Useable Barricade
+Build Cage
+ID 23685
+
+Size_X 2
+Size_Y 2
+Size_Z 0.6
+
+Health 300
+Range 4
+Radius 0.5
+Offset 0.50
+
+Explosion 36
+
+Armor_Tier High
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23073 x 5" // Металлолом
+            "23066 x 1" // Масло
+            "23079 x 1" // Вакуумная лампа
+            {
+                ID 24602 // Горелка
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23685 x 1",
+            {
+                ID 24602 // Горелка
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23073 x 3" // Металлолом
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

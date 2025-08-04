@@ -1,0 +1,63 @@
+GUID c97f1b00162f48c69012f97b411c1b78
+Type Barricade
+Useable Barricade
+Build Barricade
+ID 23663
+
+Size_X 2
+Size_Y 1
+Size_Z 0.65
+
+Health 600
+Range 4
+Radius 0.5
+Offset 0.50
+
+Explosion 28
+
+Armor_Tier High
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 2
+        Effect "27"
+        InputItems
+        [
+            "23084 x 35" // Доска
+            {
+                ID 24615 // Молоток
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23663 x 1",
+            {
+                ID 24612 // Ломик
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23084 x 11" // Доска
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

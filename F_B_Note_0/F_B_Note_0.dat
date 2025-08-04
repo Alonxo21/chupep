@@ -1,0 +1,17 @@
+GUID 79e432e81cfe4bada579cae8da78adaa
+Type Barricade
+Useable Barricade
+Build Note
+ID 23539
+
+Size_X 1
+Size_Y 1
+Size_Z 0.45
+
+Health 5000
+Range 4
+
+Armor_Tier High
+
+Explosion 58
+Vulnerable

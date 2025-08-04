@@ -1,0 +1,72 @@
+GUID 25da6f4a66104e6883bf7b45ba875083
+Type Trap
+Rarity Rare
+Useable Barricade
+Build Spike
+ID 23692
+
+Equipable_Movement_Speed_Multiplier 0.95
+
+Size_X 1
+Size_Y 1
+Size_Z 0.35
+
+Health 10
+Range 4
+Radius 0.2
+Offset 0.5
+
+Player_Damage 91
+Zombie_Damage 175
+Animal_Damage 175
+Barricade_Damage 75
+Structure_Damage 75
+Vehicle_Damage 175
+Resource_Damage 625
+Object_Damage 100
+Explosion_Launch_Speed 40
+
+Range2 8
+Explosion2 17480
+
+Explosive
+
+Explosion 17480
+Vulnerable
+Unrepairable
+
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Effect "27"
+        InputItems
+        [
+            "23692 x 1"
+        ]
+        OutputItems
+        [
+            "5711 x 1"
+        ]
+        RequiresNearbyCraftingTags 
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Effect "32"
+        InputItems
+        [
+            "5728 x 6"
+            "5712 x 2"
+            "5724 x 1"
+            "5725 x 1"
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags 
+        [
+        ]
+    }
+]

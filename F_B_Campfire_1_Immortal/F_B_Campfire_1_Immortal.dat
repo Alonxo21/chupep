@@ -1,0 +1,23 @@
+GUID af5d8b8557714524811ef91b7f913b36
+Type Barricade
+Rarity Rare
+Useable Barricade
+Build Campfire
+ID 23640
+
+Size_X 2
+Size_Y 2
+Size_Z 0.4
+
+Health 0
+Range 4
+Radius 0.6
+Offset 0.50
+
+Explosion 19
+
+Master_Bundle_Override thelab.masterbundle
+Bundle_Override_Path /Items/Barricades/F_B_Campfire_1
+
+Armor_Tier High
+ 

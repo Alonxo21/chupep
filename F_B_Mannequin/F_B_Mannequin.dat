@@ -1,0 +1,45 @@
+GUID 377ed8057a71407ab83f3eab14c9429a
+Type Barricade
+Rarity Epic
+Useable Barricade
+Build Mannequin
+ID 23697
+
+Size_X 2
+Size_Y 2
+Size_Z 0.65
+
+Health 600000
+Range 4
+Radius 0.8
+Offset 1
+
+Locked
+
+Explosion 36
+
+Blueprints
+[
+    {
+        Name Furniture
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 3
+        Effect "27"
+        InputItems
+        [
+            "67 x 4"
+            "285 x 7"
+            "66 x 5"
+            {
+                ID 76
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags 
+        [
+        ]
+    }
+]
+Ignore_TexRW

@@ -1,0 +1,28 @@
+GUID d49940ea518c4aeab20144c135629b3c
+Type Barricade
+Rarity Mythical
+Useable Barricade
+Build Barricade
+ID 23658
+
+Size_X 2
+Size_Y 2
+Size_Z 0.65
+
+Health 0
+Range 4
+Radius 0.5
+Offset 0.50
+
+Explosion 28
+
+Armor_Tier High
+
+
+PlaceableProvidesCraftingTags
+[
+	"7b82c125a5a54984b8bb26576b59e977" //default Workbench
+	"2ac5ddc545a848008c0308d21f5d2e6b" //spinning Wheel
+	"8e86b740dafc46f7bf98c5040c9b223e" //Dye vat
+]
+ 

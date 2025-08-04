@@ -1,0 +1,20 @@
+GUID 27eb55b3b4974f96be513b409b045d56
+Type Barricade
+Rarity Rare
+Useable Barricade
+Build Campfire
+ID 23638
+
+Size_X 2
+Size_Y 2
+Size_Z 0.4
+
+Health 600
+Range 4
+Radius 0.6
+Offset 0.50
+
+Explosion 19
+
+Armor_Tier High
+ 

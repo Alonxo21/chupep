@@ -1,0 +1,66 @@
+GUID b3a483f7a3c6483f836dc520f4449100
+Type Barricade
+Useable Barricade
+Build Bed
+ID 23558
+
+Size_X 2
+Size_Y 2
+Size_Z 0.4
+Use_Auto_Icon_Measurements True
+Health 800
+Range 4
+Radius 0.2
+Offset 1
+
+Explosion 37
+
+Armor_Tier High
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 2
+        Effect "27"
+        InputItems
+        [
+            "23073 x 40" // Металлолом
+            "23030 x 25" // Ткань
+            "23075 x 1" // Пружины
+            {
+                ID 24602 // Горелка
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23558 x 1",
+            {
+                ID 24639 // Ножовка
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23073 x 13" // Металлолом
+            "23030 x 8" // Ткань
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

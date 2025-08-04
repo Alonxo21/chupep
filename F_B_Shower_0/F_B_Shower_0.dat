@@ -1,0 +1,70 @@
+GUID 72a0d8557f2e4d6aa1b1494d5c265e99
+Type Barricade
+Rarity Rare
+Useable Barricade
+Build Campfire
+ID 23538
+
+Size_X 2
+Size_Y 2
+Size_Z 0.4
+
+Health 600
+Range 4
+Radius 0.6
+Offset 1
+
+Explosion 19
+
+Armor_Tier High
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 2
+        Effect "27"
+        InputItems
+        [
+            "23027 x 50" // Керамика
+            "23072 x 10" // Резина
+            "23073 x 6" // Металлолом
+            "23078 x 3" // Скипидар
+            {
+                ID 23003 // Гаечный ключ
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23538 x 1",
+            {
+                ID 24615 // Молоток
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23027 x 16" // Керамика
+            "23072 x 3" // Резина
+            "23073 x 2" // Металлолом
+            "23078 x 1" // Скипидар
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

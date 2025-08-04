@@ -1,0 +1,87 @@
+GUID 82db8ed400964133bd8e4c6bcf6f6def
+Type Barricade
+Rarity Epic
+Useable Barricade
+Build Gate
+ID 23693
+
+Size_X 2
+Size_Y 1
+Size_Z 0.35
+
+Health 9000
+Range 4
+Radius 1.5
+Offset 1.25
+
+Locked
+
+Explosion 36
+
+Blueprints
+[
+    {
+        Name Barricade
+        CategoryTag "31a59b5fec3f4ec5b2887b1ce4acb029"
+        Skill Craft
+        Skill_Level 3
+        Effect "27"
+        InputItems
+        [
+            "68 x 4"
+            "67 x 1"
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags 
+        [
+        ]
+    }
+]
+Has_Clip_Prefab false
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23073 x 10" // Металлолом
+            "23066 x 1" // Масло
+            "23055 x 1" // Шестерни
+            {
+                ID 24602 // Горелка
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23693 x 1",
+            {
+                ID 24602 // Горелка
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23073 x 4" // Металлолом
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

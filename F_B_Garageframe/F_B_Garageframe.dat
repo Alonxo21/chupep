@@ -1,0 +1,65 @@
+GUID c7114198c39a43558f10c84382fee0b4
+Type Barricade
+Rarity Rare
+Useable Barricade
+Build Barricade
+ID 23696
+
+Size_X 2
+Size_Y 1
+Size_Z 0.3
+
+Health 450
+Range 8
+Radius 0.5
+Offset 2
+
+Explosion 29
+
+Master_Bundle_Override core.masterbundle
+Bundle_Override_Path /Items/Barricades/Garageframe_Pine
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23084 x 20" // Доска
+            {
+                ID 24615 // Молоток
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23696 x 1",
+            {
+                ID 24639 // Ножовка
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23084 x 6" // Доска
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

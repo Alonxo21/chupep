@@ -1,0 +1,21 @@
+GUID 84ef6a5ddb664f4f815a8aa33d0a60e8
+Type Barricade
+Useable Barricade
+Build Barricade
+ID 23664
+
+Size_X 2
+Size_Y 1
+Size_Z 0.65
+
+Health 600
+Range 4
+Radius 0.5
+Offset 0.50
+
+Explosion 28
+
+Armor_Tier High
+
+
+ 

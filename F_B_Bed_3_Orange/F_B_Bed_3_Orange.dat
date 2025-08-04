@@ -1,0 +1,72 @@
+GUID 02789d98c9184a2aa31aa119e494088b
+Type Barricade
+Useable Barricade
+Build Bed
+ID 23557
+
+Size_X 2
+Size_Y 2
+Size_Z 0.4
+Use_Auto_Icon_Measurements True
+Health 800
+Range 4
+Radius 0.2
+Offset 1
+
+Explosion 37
+
+Armor_Tier High
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 3
+        Effect "27"
+        InputItems
+        [
+            "23030 x 80" // Ткань
+            "23084 x 35" // Доска
+            "23073 x 25" // Металлолом
+            "23062 x 15" // Кожа
+            "23075 x 5" // Пружины
+            "23058 x 3" // Промышленное чистящее средство Абраско
+            {
+                ID 24615 // Молоток
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23557 x 1",
+            {
+                ID 24639 // Ножовка
+                Delete false
+            }
+        ]
+        OutputItems
+        [
+            "23030 x 26" // Ткань
+            "23084 x 11" // Доска
+            "23073 x 8" // Металлолом
+            "23062 x 5" // Кожа
+            "23075 x 1" // Пружины
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

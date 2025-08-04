@@ -1,0 +1,45 @@
+GUID 71d037d6498e492199572bfd45514733
+Type Storage
+Rarity Rare
+Useable Barricade
+Build Storage_Wall
+ID 23691
+
+Size_X 2
+Size_Y 2
+Size_Z 0.7
+
+Health 450
+Range 4
+Radius 0.5
+Offset 0.125
+
+Storage_X 4
+Storage_Y 6
+
+Explosion 36
+
+Blueprints
+[
+    {
+        Name Furniture
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 3
+        Effect "27"
+        InputItems
+        [
+            "5711 x 4"
+            "5733 x 2"
+            "5719 x 1"
+            {
+                ID 5763
+                Delete false
+            }
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags 
+        [
+        ]
+    }
+]

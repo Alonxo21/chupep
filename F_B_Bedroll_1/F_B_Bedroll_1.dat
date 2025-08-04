@@ -1,0 +1,53 @@
+GUID b3954455b5ca4397add32570e39d9e77
+Type Barricade
+Useable Barricade
+Build Bed
+ID 23567
+
+Size_X 2
+Size_Y 2
+Size_Z 0.4
+Use_Auto_Icon_Measurements True
+Health 800
+Range 4
+Radius 0.2
+Offset 0.50
+
+Explosion 37
+
+Armor_Tier High
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Effect "27"
+        InputItems
+        [
+            "23030 x 25" // Ткань
+            "23075 x 1" // Пружины
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Effect "27"
+        InputItems
+        [
+            "23567 x 1"
+
+        ]
+        OutputItems
+        [
+            "23030 x 8" // Ткань
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item
