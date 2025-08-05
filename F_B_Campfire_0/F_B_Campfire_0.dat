@@ -16,5 +16,42 @@ Offset 0.50
 
 Explosion 19
 Vulnerable
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23082 x 5" // Дрова
+            "23046 x 1" // Уголь
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23637 x 1"
 
- 
+        ]
+        OutputItems
+        [
+            "23046 x 3" // Уголь
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item
