@@ -23,7 +23,6 @@ Explosion 36
 
 Armor_Tier High
 Should_Close_When_Outside_Range true
-Vulnerable
 Blueprints
 [
     {

@@ -18,7 +18,6 @@ Explosion 29
 
 Master_Bundle_Override core.masterbundle
 Bundle_Override_Path /Items/Barricades/Doorframe_Pine
-Vulnerable
 Blueprints
 [
     {

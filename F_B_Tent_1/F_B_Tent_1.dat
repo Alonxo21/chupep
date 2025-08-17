@@ -14,8 +14,8 @@ Range 8
 Radius 0.5
 Offset 0.50
 
-Storage_X 6
-Storage_Y 6
+Storage_X 10
+Storage_Y 30
 
 Locked
 
@@ -23,7 +23,6 @@ Explosion 36
 
 Armor_Tier High
 Should_Close_When_Outside_Range true
-Vulnerable
 Blueprints
 [
     {

@@ -13,8 +13,8 @@ Health 65534
 Range 4
 Offset 0.125
 
-Storage_X 6
-Storage_Y 3
+Storage_X 10
+Storage_Y 30
 Display
 Locked
 
@@ -22,7 +22,6 @@ Explosion 36
 
 Master_Bundle_Override core.masterbundle
 Bundle_Override_Path /Items/Barricades/Rack_Metal
-Vulnerable
 Blueprints
 [
     {
