@@ -9,7 +9,7 @@ Size_X 2
 Size_Y 2
 Size_Z 0.4
 
-Health 600
+Health 65534
 Range 4
 Radius 0.6
 Offset 0.50
@@ -17,6 +17,7 @@ Offset 0.50
 Explosion 19
 
 Armor_Tier High
+Vulnerable
 Blueprints
 [
     {

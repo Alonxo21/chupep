@@ -8,7 +8,7 @@ Size_X 1
 Size_Y 2
 Size_Z 0.65
 
-Health 600
+Health 65534
 Range 4
 Radius 0.5
 Offset 0.50
@@ -16,6 +16,7 @@ Offset 0.50
 Explosion 28
 
 Armor_Tier High
+Vulnerable
 Blueprints
 [
     {
@@ -28,7 +29,7 @@ Blueprints
         [
             "23082 x 30" // Дрова
             {
-                ID 24615 // Молоток
+                ID 24615
                 Delete false
             }
         ]
@@ -45,9 +46,9 @@ Blueprints
         Effect "27"
         InputItems
         [
-            "23657 x 1",
+            "23657 x 1"
             {
-                ID 24639 // Ножовка
+                ID 24639
                 Delete false
             }
         ]

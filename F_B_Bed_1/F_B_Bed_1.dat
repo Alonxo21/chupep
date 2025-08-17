@@ -8,7 +8,7 @@ Size_X 2
 Size_Y 2
 Size_Z 0.4
 Use_Auto_Icon_Measurements True
-Health 800
+Health 65534
 Range 4
 Radius 0.2
 Offset 1
@@ -16,11 +16,14 @@ Offset 1
 Explosion 37
 
 Armor_Tier High
+Vulnerable
 Blueprints
 [
     {
         Name Tool
         CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 1
         Effect "27"
         InputItems
         [
@@ -30,24 +33,27 @@ Blueprints
             "23056 x 1" // Стекло
             "23021 x 1" // Кислота
             {
-                ID 24615 // Молоток
+                ID 24615
                 Delete false
             }
         ]
         OutputItems this
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
     {
         Name Tool
         CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
         Effect "27"
         InputItems
         [
-            "23551 x 1",
+            "23551 x 1"
             {
-                ID 24639 // Ножовка
+                ID 24639
                 Delete false
             }
         ]
@@ -59,6 +65,7 @@ Blueprints
         ]
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
 ]

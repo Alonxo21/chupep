@@ -8,7 +8,7 @@ Size_X 3
 Size_Y 1
 Size_Z 0.65
 
-Health 600
+Health 65534
 Range 4
 Radius 0.5
 Offset 0.50
@@ -16,6 +16,7 @@ Offset 0.50
 Explosion 28
 
 Armor_Tier High
+Vulnerable
 Blueprints
 [
     {
@@ -31,13 +32,14 @@ Blueprints
             "23026 x 5" // Болты
             "23061 x 3" // Промышленный Суперклей
             {
-                ID 24615 // Молоток
+                ID 24615
                 Delete false
             }
         ]
         OutputItems this
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
     {
@@ -48,9 +50,9 @@ Blueprints
         Effect "27"
         InputItems
         [
-            "23585 x 1",
+            "23585 x 1"
             {
-                ID 24639 // Ножовка
+                ID 24639
                 Delete false
             }
         ]
@@ -62,6 +64,7 @@ Blueprints
         ]
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
 ]

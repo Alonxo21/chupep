@@ -9,7 +9,7 @@ Size_X 2
 Size_Y 2
 Size_Z 0.5
 
-Health 1100
+Health 65534
 Range 4
 Radius 1
 
@@ -18,16 +18,23 @@ Locked
 Explosion 36
 
 Armor_Tier High
+Vulnerable
 Blueprints
 [
     {
         Name Tool
         CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 2
         Effect "27"
         InputItems
         [
             "23085 x 30" // Палка
             "23051 x 1" // Мешок с удобрениями
+            {
+                ID 24602
+                Delete false
+            }
         ]
         OutputItems this
         RequiresNearbyCraftingTags
@@ -37,11 +44,16 @@ Blueprints
     {
         Name Tool
         CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
         Effect "27"
         InputItems
         [
             "23682 x 1"
-
+            {
+                ID 24612
+                Delete false
+            }
         ]
         OutputItems
         [

@@ -8,7 +8,7 @@ Size_X 4
 Size_Y 2
 Size_Z 0.65
 
-Health 600
+Health 65534
 Range 4
 Radius 0.5
 Offset 0.50
@@ -16,6 +16,42 @@ Offset 0.50
 Explosion 28
 
 Armor_Tier High
+Vulnerable
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23030 x 50" // Ткань
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23667 x 1"
 
-
- 
+        ]
+        OutputItems
+        [
+            "23030 x 16" // Ткань
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

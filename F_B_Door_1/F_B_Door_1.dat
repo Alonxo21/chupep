@@ -9,7 +9,7 @@ Size_X 2
 Size_Y 2
 Size_Z 0.25
 
-Health 1100
+Health 65534
 Range 4
 Radius 1
 
@@ -18,6 +18,7 @@ Locked
 Explosion 36
 
 Armor_Tier High
+Vulnerable
 Blueprints
 [
     {
@@ -33,13 +34,14 @@ Blueprints
             "23026 x 2" // Болты
             "23066 x 2" // Масло
             {
-                ID 24615 // Молоток
+                ID 24615
                 Delete false
             }
         ]
         OutputItems this
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
     {
@@ -50,9 +52,9 @@ Blueprints
         Effect "27"
         InputItems
         [
-            "23680 x 1",
+            "23680 x 1"
             {
-                ID 24612 // Ломик
+                ID 24612
                 Delete false
             }
         ]
@@ -63,6 +65,7 @@ Blueprints
         ]
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
 ]

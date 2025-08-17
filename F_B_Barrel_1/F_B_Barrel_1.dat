@@ -9,7 +9,7 @@ Size_X 1
 Size_Y 2
 Size_Z 0.5
 
-Health 600
+Health 65534
 Range 4
 Radius 0.5
 Offset 0.50
@@ -23,6 +23,7 @@ Explosion 36
 
 Armor_Tier High
 Should_Close_When_Outside_Range true
+Vulnerable
 Blueprints
 [
     {
@@ -35,13 +36,14 @@ Blueprints
         [
             "23073 x 13" // Металлолом
             {
-                ID 24602 // Горелка
+                ID 24602
                 Delete false
             }
         ]
         OutputItems this
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
     {
@@ -52,9 +54,9 @@ Blueprints
         Effect "27"
         InputItems
         [
-            "23654 x 1",
+            "23654 x 1"
             {
-                ID 24639 // Ножовка
+                ID 24639
                 Delete false
             }
         ]
@@ -64,6 +66,7 @@ Blueprints
         ]
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
 ]

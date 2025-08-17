@@ -9,7 +9,7 @@ Size_X 2
 Size_Y 2
 Size_Z 0.4
 
-Health 600
+Health 65534
 Range 4
 Radius 0.6
 Offset 1
@@ -17,6 +17,7 @@ Offset 1
 Explosion 19
 
 Armor_Tier High
+Vulnerable
 Blueprints
 [
     {
@@ -31,13 +32,14 @@ Blueprints
             "23072 x 3" // Резина
             "23060 x 1" // Промышленный Скипидар
             {
-                ID 23003 // Гаечный ключ
+                ID 23003
                 Delete false
             }
         ]
         OutputItems this
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
     {
@@ -48,9 +50,9 @@ Blueprints
         Effect "27"
         InputItems
         [
-            "23545 x 1",
+            "23545 x 1"
             {
-                ID 24615 // Молоток
+                ID 24615
                 Delete false
             }
         ]
@@ -61,6 +63,7 @@ Blueprints
         ]
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
 ]

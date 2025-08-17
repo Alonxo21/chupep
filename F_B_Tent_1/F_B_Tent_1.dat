@@ -9,7 +9,7 @@ Size_X 2
 Size_Y 2
 Size_Z 0.5
 
-Health 600
+Health 65534
 Range 8
 Radius 0.5
 Offset 0.50
@@ -23,6 +23,7 @@ Explosion 36
 
 Armor_Tier High
 Should_Close_When_Outside_Range true
+Vulnerable
 Blueprints
 [
     {

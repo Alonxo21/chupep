@@ -9,7 +9,7 @@ Size_X 4
 Size_Y 2
 Size_Z 0.5
 
-Health 600
+Health 65534
 Range 4
 Radius 0.5
 Offset 0.50
@@ -23,6 +23,7 @@ Explosion 36
 
 Armor_Tier High
 Should_Close_When_Outside_Range true
+Vulnerable
 Blueprints
 [
     {
@@ -35,6 +36,10 @@ Blueprints
         [
             "23062 x 30" // Кожа
             "23030 x 15" // Ткань
+            {
+                ID 24602
+                Delete false
+            }
         ]
         OutputItems this
         RequiresNearbyCraftingTags
@@ -50,7 +55,10 @@ Blueprints
         InputItems
         [
             "23594 x 1"
-
+            {
+                ID 24639
+                Delete false
+            }
         ]
         OutputItems
         [

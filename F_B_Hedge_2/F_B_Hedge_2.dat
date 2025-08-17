@@ -8,7 +8,7 @@ Size_X 1
 Size_Y 2
 Size_Z 0.65
 
-Health 600
+Health 65534
 Range 4
 Radius 0.1
 Offset 0.50
@@ -19,3 +19,42 @@ Armor_Tier High
 
 
 PlacementAudioClip Sounds/FoliagePlacement.mp3
+Vulnerable
+Blueprints
+[
+    {
+        Name Tool
+        CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23085 x 20" // Палка
+        ]
+        OutputItems this
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+    {
+        Name Tool
+        CategoryTag "ad1804b6945145f3b308738b0b8ea447"
+        Skill Craft
+        Skill_Level 1
+        Effect "27"
+        InputItems
+        [
+            "23675 x 1"
+
+        ]
+        OutputItems
+        [
+            "23085 x 6" // Палка
+        ]
+        RequiresNearbyCraftingTags
+        [
+        ]
+    }
+]
+Instantiated_Item_Name_Override Item

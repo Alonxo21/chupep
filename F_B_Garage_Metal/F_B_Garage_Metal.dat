@@ -9,7 +9,7 @@ Size_X 2
 Size_Y 1
 Size_Z 0.35
 
-Health 9000
+Health 65534
 Range 4
 Radius 1.5
 Offset 1.25
@@ -17,48 +17,26 @@ Offset 1.25
 Locked
 
 Explosion 36
-
-Blueprints
-[
-    {
-        Name Barricade
-        CategoryTag "31a59b5fec3f4ec5b2887b1ce4acb029"
-        Skill Craft
-        Skill_Level 3
-        Effect "27"
-        InputItems
-        [
-            "68 x 4"
-            "67 x 1"
-        ]
-        OutputItems this
-        RequiresNearbyCraftingTags 
-        [
-        ]
-    }
-]
-Has_Clip_Prefab false
+Vulnerable
 Blueprints
 [
     {
         Name Tool
         CategoryTag "b0c6cc0a8b4346be89aef697ecdb8e46"
         Skill Craft
-        Skill_Level 1
+        Skill_Level 3
         Effect "27"
         InputItems
         [
-            "23073 x 10" // Металлолом
-            "23066 x 1" // Масло
-            "23055 x 1" // Шестерни
             {
-                ID 24602 // Горелка
+                ID 24602
                 Delete false
             }
         ]
         OutputItems this
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
     {
@@ -69,9 +47,9 @@ Blueprints
         Effect "27"
         InputItems
         [
-            "23693 x 1",
+            "23693 x 1"
             {
-                ID 24602 // Горелка
+                ID 24602
                 Delete false
             }
         ]
@@ -81,6 +59,7 @@ Blueprints
         ]
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
 ]

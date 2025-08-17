@@ -9,7 +9,7 @@ Size_X 2
 Size_Y 2
 Size_Z 0.7
 
-Health 450
+Health 65534
 Range 4
 Radius 0.5
 Offset 0.125
@@ -19,6 +19,7 @@ Storage_Y 6
 
 Explosion 36
 
+Vulnerable
 Blueprints
 [
     {

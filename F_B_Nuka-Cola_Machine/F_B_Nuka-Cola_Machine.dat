@@ -9,7 +9,7 @@ Size_X 2
 Size_Y 2
 Size_Z 0.5
 
-Health 600
+Health 65534
 Range 4
 Radius 0.5
 Offset 0.50
@@ -23,6 +23,7 @@ Explosion 36
 
 Armor_Tier High
 Should_Close_When_Outside_Range true
+Vulnerable
 Blueprints
 [
     {
@@ -44,13 +45,14 @@ Blueprints
             "23079 x 1" // Вакуумная лампа
             "23063 x 1" // Топливо Мистера помощника
             {
-                ID 24602 // Горелка
+                ID 24602
                 Delete false
             }
         ]
         OutputItems this
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
     {
@@ -61,9 +63,9 @@ Blueprints
         Effect "27"
         InputItems
         [
-            "23528 x 1",
+            "23528 x 1"
             {
-                ID 24612 // Ломик
+                ID 24612
                 Delete false
             }
         ]
@@ -76,6 +78,7 @@ Blueprints
         ]
         RequiresNearbyCraftingTags
         [
+             7b82c125a5a54984b8bb26576b59e977
         ]
     }
 ]
